@@ -15,6 +15,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '1'
+    OnClick = Button1Click
   end
   object Button2: TButton
     Position.X = 128.000000000000000000
@@ -23,6 +24,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '2'
+    OnClick = Button2Click
   end
   object Button3: TButton
     Position.X = 216.000000000000000000
@@ -31,6 +33,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '3'
+    OnClick = Button3Click
   end
   object Button4: TButton
     Position.X = 40.000000000000000000
@@ -39,6 +42,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '4'
+    OnClick = Button4Click
   end
   object Button5: TButton
     Position.X = 128.000000000000000000
@@ -47,6 +51,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '5'
+    OnClick = Button5Click
   end
   object Button6: TButton
     Position.X = 216.000000000000000000
@@ -55,6 +60,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '6'
+    OnClick = Button6Click
   end
   object Button7: TButton
     Position.X = 40.000000000000000000
@@ -63,6 +69,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '7'
+    OnClick = Button7Click
   end
   object Button8: TButton
     Position.X = 128.000000000000000000
@@ -71,6 +78,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '8'
+    OnClick = Button8Click
   end
   object Button9: TButton
     Position.X = 216.000000000000000000
@@ -79,6 +87,7 @@ object Form1: TForm1
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
     Text = '9'
+    OnClick = Button9Click
   end
   object Button10: TButton
     Position.X = 40.000000000000000000
@@ -87,6 +96,7 @@ object Form1: TForm1
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
     Text = 'Reset'
+    OnClick = Button10Click
   end
   object Label1: TLabel
     StyledSettings = []
