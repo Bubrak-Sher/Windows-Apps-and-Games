@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Tic Tac Toe By Scorpio'
+  ClientHeight = 360
+  ClientWidth = 340
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '1'
+  end
+  object Button2: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '2'
+  end
+  object Button3: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '3'
+  end
+  object Button4: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '4'
+  end
+  object Button5: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '5'
+  end
+  object Button6: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '6'
+  end
+  object Button7: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '7'
+  end
+  object Button8: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '8'
+  end
+  object Button9: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = '9'
+  end
+  object Button10: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 304.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Reset'
+  end
+  object Label1: TLabel
+    StyledSettings = []
+    Position.X = 48.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 75.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Segoe Script'
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claChocolate
+    TextSettings.HorzAlign = Center
+    Text = 'Scorpio-BS'
+  end
+end
